@@ -35,5 +35,7 @@ public class Teacher {
         teacher.setStudent(new Student("AKI", 26));
         // 获取学生信息
         System.out.println(teacher.getStudent().getName() + ":" + teacher.getStudent().getAge());
+        teacher.setName("小高");
+        System.out.println("teacherName:" + teacher.getName());
     }
 }
